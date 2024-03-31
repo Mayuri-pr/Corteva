@@ -1,3 +1,4 @@
+import express from "express";
 import dotenv from "dotenv";
 import morgan from "morgan";
 import connectDB from "./config/db.js";
@@ -27,7 +28,7 @@ const __dirname= path.dirname(__filename);
 
 
 // rest object
-const express = require('express');
+
 const app = express();
 
 //middlewares
