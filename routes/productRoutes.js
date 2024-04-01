@@ -1,4 +1,4 @@
-import express from "express";
+const express = require('express');
 import formidable from "express-formidable";
 
 import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
@@ -19,6 +19,7 @@ import {
   updateProductController,
 } from "../controllers/productController.js";
 
+const app = express();
 const router = express.Router();
 
 // routes
