@@ -1,4 +1,4 @@
-const userModel = require('../models/usermodel.js');
+const userModel = require('../models/userModel.js');
 
 import orderModel from "../models/orderModel.js";
 import { comparePassword, hashPassword } from "./../helpers/authHelper.js";
