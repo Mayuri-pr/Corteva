@@ -1,4 +1,4 @@
-import express from "express";
+const express = require('express');
 import { requireSignIn, isAdmin } from "./../middlewares/authMiddleware.js";
 import {
     categoryController,
@@ -8,6 +8,7 @@ import {
   updateCategoryController,
 } from "../controllers/categoryController.js";
 
+const app = express();
 const router = express.Router();
 
 //routes
