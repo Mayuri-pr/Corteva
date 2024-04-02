@@ -12,7 +12,7 @@ import {
 import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
 // router object
 
-const app = express();
+
 const router = express.Router();
 
 //routing
